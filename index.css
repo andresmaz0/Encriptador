@@ -11,3 +11,18 @@
     left: 10px;
     top: 20px;
 }
+
+.autor{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+}
