@@ -1,3 +1,7 @@
+header{
+    background: #EBDFDF;
+}
+
 .a{
     display: flex;
     flex-direction: column;
