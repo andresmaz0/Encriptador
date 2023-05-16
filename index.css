@@ -20,15 +20,17 @@
     color: #0A3871;
 }
 
+main{
+    display: flex;
+}
+
 .entrada_texto{
-    position: absolute;
     font-size: 32px;
     width: 577px;
     height: 48px;
-    left: 240px;
-    top: 168px;
+    /* top | right | bottom | left  */
+    margin: 90px 0px 0px 190px;
     color: #0A3871;
     text-transform: lowercase;
 }
-
 ::placeholder{ color:#0A3871}
