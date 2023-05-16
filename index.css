@@ -29,3 +29,5 @@
     top: 168px;
     color: #0A3871;
 }
+
+::placeholder{ color:#0A3871}
