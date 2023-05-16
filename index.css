@@ -14,9 +14,10 @@
 }
 
 .autor{
-    position: relative;
-    text-align: center;
-    top: 20px;
+    position: absolute;
+    font-size: 34px;
+    top: 25px;
+    left: 40%;
     color: #0A3871;
 }
 
