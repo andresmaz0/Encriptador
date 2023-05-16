@@ -28,6 +28,7 @@
     left: 240px;
     top: 168px;
     color: #0A3871;
+    text-transform: lowercase;
 }
 
 ::placeholder{ color:#0A3871}
