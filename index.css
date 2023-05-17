@@ -33,3 +33,9 @@ main{
     outline: none;
 }
 ::placeholder{ color:#0A3871}
+
+.salida_texto{
+    outline: none;
+    background: white;
+    background-image: url("Imagenes/Muñeco.png");
+}
