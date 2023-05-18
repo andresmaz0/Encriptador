@@ -25,6 +25,7 @@
 main{
     width: 100%;
     height: 90%;
+    display: flex;
 }
 
 .entrada_texto{
@@ -45,9 +46,12 @@ main{
 
 .info{
     color: #495057;
+    position: absolute;
+    left: 10%;
+    top: 80%;
 }
 .info::before{
-    content: "🛈";
+    content: "🛈 ";
 }
 
 .salida_texto{
