@@ -46,9 +46,11 @@ main{
 
 .info{
     color: #495057;
+    font-size: 12px;
+    font-weight: 650;
     position: absolute;
     left: 10%;
-    top: 80%;
+    top: 78%;
 }
 .info::before{
     content: "🛈 ";
