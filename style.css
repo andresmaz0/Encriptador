@@ -147,3 +147,7 @@ main{
     top: 82%;
     scale: 82%;
 }
+
+.ocultarimg{
+    background-image: none;
+}

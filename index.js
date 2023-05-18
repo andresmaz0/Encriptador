@@ -10,5 +10,5 @@ function encriptar(){
 }
 
 function ocultarimagen(){
-    salida_texto.classList.add(".ocultar");
+    salida_texto.classList.add(".ocultarimg");
 }
