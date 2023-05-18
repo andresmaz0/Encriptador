@@ -179,4 +179,11 @@ main{
 
 /* Sección de responsividad */
 @media screen and (max-width:700px){
+    .salida_texto{
+        left: 8%;
+        top: 27em;
+        background-image: none;
+        width: 24em;
+        height: 11em;
+    }
 }
