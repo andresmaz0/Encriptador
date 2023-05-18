@@ -99,7 +99,7 @@ main{
     width: 28%;
 }
 
-.encriptar:hover,.desencriptar:hover,.copiar:hover{
+.encriptar:hover,.desencriptar:hover,.copiar:hover,.pegar:hover{
     transform: scale(1.05);
 }
 
