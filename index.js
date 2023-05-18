@@ -5,11 +5,16 @@ var entrada_texto = document.querySelector(".entrada_texto");
 var salida_texto = document.querySelector(".salida_texto");
 
 boton_encriptar.onclick = b_encriptar;
+boton_desencriptar.onclick = b_desencriptar;
 
 function b_encriptar(){
     ocultarimagen();
     visualizar_boton();
     encriptar_texto();
+}
+
+function b_desencriptar(){
+    
 }
 
 function ocultarimagen(){
