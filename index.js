@@ -25,6 +25,11 @@ function b_copiar(){
     document.execCommand("copy");
 }
 
+function b_pegar(){
+    entrada_texto.value="";
+    entrada_texto.value = salida_texto.value;
+}
+
 function ocultarimagen(){
     salida_texto.classList.add("ocultarimg");
 }
