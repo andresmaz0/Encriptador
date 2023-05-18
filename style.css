@@ -96,12 +96,14 @@ main{
     width: 28%;
 }
 
+.encriptar:hover,.desencriptar:hover{
+    transform: scale(1.05);
+}
+
 .salida_texto{
     /* outline: none; */
     background: white;
     background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     color:#0A3871;
-    margin-top: 20px;
-    margin-left: 98px;
 }
