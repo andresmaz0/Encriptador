@@ -109,6 +109,7 @@ main{
     background: white;
     background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
+    background-position: center;
     color:#0A3871;
     border-radius: 32px;
     justify-content: center;
