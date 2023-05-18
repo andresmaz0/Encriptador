@@ -6,6 +6,7 @@ var salida_texto = document.querySelector(".salida_texto");
 
 boton_encriptar.onclick = b_encriptar;
 boton_desencriptar.onclick = b_desencriptar;
+boton_copiar.onclick = b_copiar;
 
 function b_encriptar(){
     ocultarimagen();
@@ -17,6 +18,11 @@ function b_desencriptar(){
     desencriptar_texto();
     ocultarimagen();
     visualizar_boton();
+}
+
+function b_copiar(){
+    salida_texto.select();
+    document.execCommand("copy");
 }
 
 function ocultarimagen(){
