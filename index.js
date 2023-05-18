@@ -3,10 +3,11 @@ var boton_desencriptar = document.querySelector(".desencriptar");
 var entrada_texto = document.querySelector(".entrada_texto");
 var salida_texto = document.querySelector(".salida_texto");
 
-boton_encriptar.onclick = encriptar;
+boton_encriptar.onclick = b_encriptar;
 
-function encriptar(){
+function b_encriptar(){
     ocultarimagen();
+
 }
 
 function ocultarimagen(){
