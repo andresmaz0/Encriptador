@@ -146,8 +146,13 @@ main{
     left: 72%;
     top: 82%;
     scale: 82%;
+    display: none;
 }
 
 .ocultarimg{
     background-image: none;
+}
+
+.visualizar_boton{
+    display: flex;
 }
