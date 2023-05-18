@@ -31,6 +31,7 @@ main{
     position: absolute;
     font-weight: 500;
     font-size: 32px;
+    font-style: normal;
     left: 10%;
     top: 17%;
     color: #0A3871;
@@ -38,6 +39,9 @@ main{
     /* outline: none; */
 }
 ::placeholder{ color:#0A3871}
+.entrada_texto:focus,.entrada_texto:active{
+    outline: none;
+}
 
 .salida_texto{
     /* outline: none; */
