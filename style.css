@@ -145,8 +145,26 @@ main{
     width: 20%;
     left: 72%;
     top: 82%;
-    scale: 82%;
+    scale: 70%;
     display: none;
+}
+
+.pegar{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-weight: 700;
+    border-radius: 24px;
+    line-height: 19px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    left: 72%;
+    top: 72%;
+    scale: 70%;
 }
 
 .ocultarimg{
