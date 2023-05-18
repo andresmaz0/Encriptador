@@ -1,6 +1,6 @@
 /* el * afecta toda la pagina */
 *{
-    background: #F3F5FC;
+    background: #e7edf6;
     font-family: 'Inter';
     font-weight: 400;
     line-height: 150%;
@@ -37,6 +37,7 @@ main{
     top: 17%;
     color: #0A3871;
     text-transform: lowercase;
+    resize:none;
     /* outline: none; */
 }
 ::placeholder{ color:#0A3871}
@@ -109,7 +110,8 @@ main{
     color:#0A3871;
     border-radius: 32px;
     justify-content: center;
-    width: 30%;
+    width: 20%;
     height: 85%;
     left: 64%;
+    resize:none;
 }
