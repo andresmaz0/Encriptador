@@ -25,7 +25,7 @@ function b_desencriptar(){
 function b_copiar(){
     salida_texto.select();
     document.execCommand("copy");
-
+    visualizar_pegar();
 }
 
 function b_pegar(){
