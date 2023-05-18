@@ -188,7 +188,14 @@ main{
     }
 
     .botones{
-        width: 28em;
+        width: 46em;
+        left: 4em;
+    }
+
+    .info{
+        left: 5em;
+        top: 31em;
+        font-size: 15px;
     }
 
     .copiar{
