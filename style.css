@@ -165,6 +165,7 @@ main{
     left: 72%;
     top: 72%;
     scale: 70%;
+    display: none;
 }
 
 .ocultarimg{
