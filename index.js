@@ -8,6 +8,7 @@ var salida_texto = document.querySelector(".salida_texto");
 boton_encriptar.onclick = b_encriptar;
 boton_desencriptar.onclick = b_desencriptar;
 boton_copiar.onclick = b_copiar;
+boton_pegar.onclick = b_pegar;
 
 function b_encriptar(){
     ocultarimagen();
