@@ -102,8 +102,14 @@ main{
 
 .salida_texto{
     /* outline: none; */
+    position: absolute;
     background: white;
     background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     color:#0A3871;
+    justify-content: center;
+    width: 30%;
+    height: 85%;
+    left: 64%;
+
 }
