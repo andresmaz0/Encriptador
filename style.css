@@ -181,9 +181,25 @@ main{
 @media screen and (max-width:700px){
     .salida_texto{
         left: 8%;
-        top: 27em;
+        top: 28em;
         background-image: none;
         width: 24em;
-        height: 11em;
+        height: 10.3em;
+    }
+
+    .botones{
+        width: 28em;
+    }
+
+    .copiar{
+        left: 8.5em;
+        top: 36em;
+        scale:1.2;
+    }
+
+    .pegar{
+        left: 14.5em;
+        top: 36em;
+        scale:1.2;
     }
 }
