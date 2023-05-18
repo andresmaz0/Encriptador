@@ -170,7 +170,7 @@ main{
 }
 
 .ocultarimg{
-    background-image: none;
+    background-image: url(Imagenes/encontrado.gif);
 }
 
 .visualizar_boton{
