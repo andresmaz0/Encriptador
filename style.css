@@ -43,6 +43,13 @@ main{
     outline: none;
 }
 
+.info{
+    color: #495057;
+}
+.info::before{
+    content: "🛈";
+}
+
 .salida_texto{
     /* outline: none; */
     background: white;
