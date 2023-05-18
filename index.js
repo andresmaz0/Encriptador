@@ -15,6 +15,8 @@ function b_encriptar(){
 
 function b_desencriptar(){
     desencriptar_texto();
+    ocultarimagen();
+    visualizar_boton();
 }
 
 function ocultarimagen(){
