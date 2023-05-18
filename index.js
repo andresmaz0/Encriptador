@@ -1,5 +1,6 @@
 var boton_encriptar = document.querySelector(".encriptar");
 var boton_desencriptar = document.querySelector(".desencriptar");
+var boton_copiar = document.querySelector(".copiar");
 var entrada_texto = document.querySelector(".entrada_texto");
 var salida_texto = document.querySelector(".salida_texto");
 
@@ -7,11 +8,16 @@ boton_encriptar.onclick = b_encriptar;
 
 function b_encriptar(){
     ocultarimagen();
+    visualizar_boton();
     encriptar_texto();
 }
 
 function ocultarimagen(){
     salida_texto.classList.add("ocultarimg");
+}
+
+function visualizar_boton(){
+    boton_copiar.classList.add("visualizar_boton");
 }
 
 function encriptar_texto(){
