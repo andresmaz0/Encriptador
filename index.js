@@ -58,23 +58,23 @@ function desencriptar_texto(){
 
     for(let i=0; i<texto.length; i++){
         if(texto[i]=="ai"){
-            texto_encriptado = texto_encriptado + "a";
+            texto_desencriptado = texto_desencriptado + "a";
         }
         else if(texto[i]=="enter"){
-            texto_encriptado =  texto_encriptado + "e";
+            texto_desencriptado =  texto_desencriptado + "e";
         }
         else if(texto[i]=="imes"){
-            texto_encriptado =  texto_encriptado + "i";
+            texto_desencriptado =  texto_desencriptado + "i";
         }
         else if(texto[i]=="ober"){
-            texto_encriptado =  texto_encriptado + "o";
+            texto_desencriptado =  texto_desencriptado + "o";
         }
         else if(texto[i]=="ufat"){
-            texto_encriptado =  texto_encriptado + "u";
+            texto_desencriptado =  texto_desencriptado + "u";
         }
         else{
-            texto_encriptado = texto_encriptado + texto[i];
+            texto_desencriptado = texto_desencriptado + texto[i];
         }
     }
-    salida_texto.textContent = texto_encriptado;
+    salida_texto.textContent = texto_desencriptado;
 }
