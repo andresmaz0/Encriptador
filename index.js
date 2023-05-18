@@ -14,7 +14,7 @@ function b_encriptar(){
 }
 
 function b_desencriptar(){
-    
+    desencriptar_texto();
 }
 
 function ocultarimagen(){
@@ -44,6 +44,33 @@ function encriptar_texto(){
         }
         else if(texto[i]=="u"){
             texto_encriptado =  texto_encriptado + "ufat";
+        }
+        else{
+            texto_encriptado = texto_encriptado + texto[i];
+        }
+    }
+    salida_texto.textContent = texto_encriptado;
+}
+
+function desencriptar_texto(){
+    let texto = entrada_texto.value;
+    let texto_desencriptado = "";
+
+    for(let i=0; i<texto.length; i++){
+        if(texto[i]=="ai"){
+            texto_encriptado = texto_encriptado + "a";
+        }
+        else if(texto[i]=="enter"){
+            texto_encriptado =  texto_encriptado + "e";
+        }
+        else if(texto[i]=="imes"){
+            texto_encriptado =  texto_encriptado + "i";
+        }
+        else if(texto[i]=="ober"){
+            texto_encriptado =  texto_encriptado + "o";
+        }
+        else if(texto[i]=="ufat"){
+            texto_encriptado =  texto_encriptado + "u";
         }
         else{
             texto_encriptado = texto_encriptado + texto[i];
