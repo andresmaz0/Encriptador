@@ -12,19 +12,20 @@ boton_pegar.onclick = b_pegar;
 
 function b_encriptar(){
     ocultarimagen();
-    visualizar_boton();
+    visualizar_copiar();
     encriptar_texto();
 }
 
 function b_desencriptar(){
     desencriptar_texto();
     ocultarimagen();
-    visualizar_boton();
+    visualizar_copiar();
 }
 
 function b_copiar(){
     salida_texto.select();
     document.execCommand("copy");
+
 }
 
 function b_pegar(){
@@ -36,7 +37,7 @@ function ocultarimagen(){
     salida_texto.classList.add("ocultarimg");
 }
 
-function visualizar_boton(){
+function visualizar_copiar(){
     boton_copiar.classList.add("visualizar_boton");
 }
 
