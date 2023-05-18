@@ -54,24 +54,23 @@ function encriptar_texto(){
 
 function desencriptar_texto(){
     let texto = entrada_texto.value;
-    let texto_desencriptado = "";
 
-    for(let i=0; i<texto.length; i++){
+    for(let i=0; i<6; i++){
         if(texto.includes("ai")){
-            texto_desencriptado = texto.replaceAll("ai","a");
+            texto = texto.replaceAll("ai","a");
         }
         else if(texto.includes("enter")){
-            texto_desencriptado = texto.replaceAll("enter","e");
+            texto = texto.replaceAll("enter","e");
         }
         else if(texto.includes("imes")){
-            texto_desencriptado = texto.replaceAll("imes","i");
+            texto = texto.replaceAll("imes","i");
         }
         else if(texto.includes("ober")){
-            texto_desencriptado = texto.replaceAll("ober","o");
+            texto = texto.replaceAll("ober","o");
         }
         else if(texto.includes("ufat")){
-            texto_desencriptado = texto.replaceAll("ufat","u");
+            texto = texto.replaceAll("ufat","u");
         }
     }
-    salida_texto.textContent = texto_desencriptado;
+    salida_texto.textContent = texto;
 }
