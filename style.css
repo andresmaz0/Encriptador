@@ -106,7 +106,8 @@ main{
 .salida_texto{
     position: absolute;
     background: white;
-    background-image: url("Imagenes/Muñeco.png");
+    background-image: url("Imagenes/buscar.gif");
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
     color:#0A3871;
