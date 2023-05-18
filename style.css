@@ -51,9 +51,21 @@ main{
     position: absolute;
     left: 10%;
     top: 78%;
+    /* para que no sea flexible sino absoluto */
+    flex: none;
 }
 .info::before{
     content: "🛈 ";
+}
+
+.botones{
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    left: 10%;
+    top: 81%;
+    width: auto;
 }
 
 .salida_texto{
