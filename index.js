@@ -41,6 +41,10 @@ function visualizar_copiar(){
     boton_copiar.classList.add("visualizar_boton");
 }
 
+function visualizar_pegar(){
+    boton_pegar.classList.add("visualizar_boton");
+}
+
 function encriptar_texto(){
     let texto = entrada_texto.value;
     let texto_encriptado = "";
