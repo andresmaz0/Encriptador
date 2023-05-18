@@ -1,6 +1,7 @@
 var boton_encriptar = document.querySelector(".encriptar");
 var boton_desencriptar = document.querySelector(".desencriptar");
 var boton_copiar = document.querySelector(".copiar");
+var boton_pegar = document.querySelector(".pegar");
 var entrada_texto = document.querySelector(".entrada_texto");
 var salida_texto = document.querySelector(".salida_texto");
 
