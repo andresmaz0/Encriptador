@@ -75,6 +75,7 @@ main{
     padding: 2%;
     background-color: #0A3871;
     color: white;
+    font-weight: 700;
     border-radius: 24px;
     line-height: 19px;
     font-size: 18px;
@@ -90,6 +91,7 @@ main{
     padding: 2%;
     background-color: #D8DFE8;
     color: #0A3871;
+    font-weight: 700;
     border-radius: 24px;
     line-height: 19px;
     font-size: 18px;
@@ -97,7 +99,7 @@ main{
     width: 28%;
 }
 
-.encriptar:hover,.desencriptar:hover{
+.encriptar:hover,.desencriptar:hover,.copiar:hover{
     transform: scale(1.05);
 }
 
@@ -110,9 +112,27 @@ main{
     color:#0A3871;
     border-radius: 32px;
     justify-content: center;
-    width: 20%;
+    width: 23%;
     height: 85%;
-    left: 64%;
+    left: 69%;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     resize:none;
+}
+
+.copiar{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: white;
+    color: #0A3871;
+    font-weight: 700;
+    border-radius: 24px;
+    line-height: 19px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 20%;
+    left: 71%;
+    top: 81%;
+    scale: 82%;
 }
