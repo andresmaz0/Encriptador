@@ -180,33 +180,40 @@ main{
 /* Sección de responsividad */
 @media screen and (max-width:700px){
     .salida_texto{
-        left: 8%;
+        left: 1em;
         top: 28em;
         background-image: none;
-        width: 24em;
-        height: 10.3em;
+        width: 36em;
+        height: 12em;
+        font-weight: 800;
     }
 
     .botones{
         width: 46em;
-        left: 4em;
+        left: 2em;
+    }
+
+    .encriptar,.desencriptar{
+        width: 19em;
     }
 
     .info{
-        left: 5em;
+        left: 3em;
         top: 31em;
         font-size: 15px;
     }
 
     .copiar{
-        left: 8.5em;
-        top: 36em;
+        left: 4em;
+        top: 37.5em;
+        width: 13em;
         scale:1.2;
     }
 
     .pegar{
-        left: 14.5em;
-        top: 36em;
+        left: 21em;
+        top: 37.5em;
+        width: 13em;
         scale:1.2;
     }
 }
