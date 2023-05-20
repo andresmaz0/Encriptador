@@ -180,48 +180,61 @@ main{
 /* Sección de responsividad */
 @media screen and (max-width:700px){
     header{
-        width: 50em;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     .autor{
-        left: 8.2em;
-        width: 7em;
+        left: 40%;
+        width: 50%;
     }
 
-    .salida_texto{
-        left: 1em;
-        top: 29em;
-        background-image: none;
-        width: 37.5em;
-        height: 12em;
-        font-weight: 800;
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .entrada_texto{
+        width: 80%;
+        height: 40%;
     }
 
     .botones{
-        width: 46em;
+        width: 100%;
+        top: 63%;
     }
 
     .encriptar,.desencriptar{
-        width: 19em;
+        width: 45%;
     }
 
     .info{
-        left: 3em;
-        top: 31em;
+        left: 10%;
+        top: 60%;
         font-size: 15px;
     }
 
+    .salida_texto{
+        left: 4%;
+        top: 92%;
+        background-image: none;
+        width: 100%;
+        height: 40%;
+        font-weight: 800;
+    }
+
     .copiar{
-        left: 5em;
-        top: 37.5em;
-        width: 13em;
+        left: 10%;
+        top: 90%;
+        width: 30%;
         scale:1.2;
     }
 
     .pegar{
-        left: 22em;
-        top: 37.5em;
-        width: 13em;
+        left: 50%;
+        top: 70%;
+        width: 30%;
         scale:1.2;
     }
 }
