@@ -188,6 +188,7 @@ main{
     .autor{
         left: 40%;
         width: 50%;
+        font-size: 180%;
     }
 
     main{
@@ -198,43 +199,45 @@ main{
     .entrada_texto{
         width: 80%;
         height: 40%;
+        left: 3%;
     }
 
     .botones{
         width: 100%;
-        top: 63%;
+        top: 64%;
+        left:3%;
     }
 
     .encriptar,.desencriptar{
-        width: 45%;
+        width: 48%;
     }
 
     .info{
-        left: 10%;
+        left: 4%;
         top: 60%;
         font-size: 15px;
     }
 
     .salida_texto{
-        left: 4%;
-        top: 92%;
+        left: 1.5%;
+        top: 74%;
         background-image: none;
-        width: 100%;
-        height: 40%;
+        width: 98%;
+        height: 30%;
         font-weight: 800;
     }
 
-    .copiar{
-        left: 10%;
-        top: 90%;
+    .copiar,.pegar{
         width: 30%;
-        scale:1.2;
+        top: 95%;
+        scale:1.1;
+    }
+
+    .copiar{
+        left: 18%;
     }
 
     .pegar{
-        left: 50%;
-        top: 70%;
-        width: 30%;
-        scale:1.2;
+        left: 55%;
     }
 }
