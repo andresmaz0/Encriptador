@@ -1,4 +1,5 @@
-https://github.com/andresmaz0/Encriptador-de-texto/assets/88501273/73bfa0cf-fdfc-4b1e-a623-d60c83fd0f73
+
+![20230714_180601](https://github.com/andresmaz0/Encriptador-de-texto/assets/88501273/db65336c-6aa3-4a1a-ac80-c2c54a593098)
 
 # Encriptador-de-texto
 Pagina web reallizada para el challenge Encriptador con la beca OracleNextEducation.
